@@ -1,0 +1,11 @@
+{
+	"name": "azure_sql",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureMySql",
+		"typeProperties": {
+			"connectionString": "Server=;Port=3306;Database=;UID=;SSLMode=1;UseSystemTrustStore=0"
+		}
+	}
+}
