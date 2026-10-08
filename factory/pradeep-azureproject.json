@@ -1,0 +1,15 @@
+{
+	"name": "pradeep-azureproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "44d7235f-ba62-4729-9339-0338bb690a5c",
+		"tenantId": "16f03d3c-beb1-48cf-b368-9677a8299c9c"
+	}
+}
